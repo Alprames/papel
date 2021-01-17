@@ -45,15 +45,20 @@ h1 {
     display: flex;
     justify-content: center;
 }
-.ig-logo {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
+.instagram a {
+    display: block;
+    width: 4%;
+    margin: 0 auto;
+    transition: ease-in-out 120ms;
+}
+.instagram a:hover {
+    filter: brightness(110%);
 }
 #instagram-logo {
     display: flex;
     justify-content: center;
     max-width: 4rem;
+    margin: 1rem;
 }
 #instagram-account {
     text-align: center;
@@ -97,6 +102,11 @@ h1 {
     border-radius: 50%;
     max-width: 10.2rem;
     box-shadow: 6px 5px 9px -7px rgba(0,0,0,0.5), inset 12px 10px 19px -13px rgba(255,255,255,0.75);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 200ms;
+}
+.manos img:hover {
+    transform: scale(1.1);
+    filter: brightness(105%);
 }
 
 /* pantalla */
