@@ -1,0 +1,93 @@
+:root {
+    --white: #f8f1f1;
+    --blue: #11698e;
+    --darkBlue: #19456b;
+    --green: #16c79a;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: var(--white);
+}
+/* utilidades */
+.text-center {
+    justify-content: center;
+    text-align: center;
+}
+
+/* General */
+h1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: var(--blue);
+}
+
+/* Header */
+
+
+.nav {
+    background-color: var(--green);
+}
+.contenedor-logotipo {
+    display: flex;
+    justify-content: center;
+}
+#logotipo {
+    max-height: 9.2rem;
+    display: flex;
+    justify-content: center;
+}
+#instagram-logo {
+    display: flex;
+    justify-content: center;
+    max-width: 4rem;
+}
+.ig-logo {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+#instagram-account {
+    text-align: center;
+    margin: 0;
+    margin-top: -1rem;
+    padding: 0;
+    color: var(--green);
+    font-size: 3.2rem;
+}
+
+#titulo {
+    margin-top: 0;
+}
+
+/* contenido del juego */
+.contenedor {
+
+}
+
+/* footer */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    text-align: center;
+    padding: 3.8rem;
+  }
+
+#github-link {
+    font-size: 2.8rem;
+    margin:0;
+    padding:0;
+}
