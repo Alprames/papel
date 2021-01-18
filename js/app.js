@@ -18,7 +18,7 @@ function juegaRonda(e) {
     e.preventDefault(); // evita que se redirija la página
 
     // si se acaba el juego
-    if (userScore > 5 || cpuScore > 5) {
+    if (userScore > 4 || cpuScore > 4) {
         finDelJuego();
         return;
     }
